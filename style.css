@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+   display: flex;
+   
+}
+h1{
+    margin-left: 10rem;
+   color: white;
+   width: 8rem;
+}
+
+.banner{
+    width: 455px;
+    height:55px;
+    margin-top: 5px;
+    margin-left: 7rem;
+
+}
+
+.gif{
+    height: 8rem;
+    width: 25rem;
+}
+button{
+    background-color: black;
+    border-color: black;
+    height: 40px;
+    width: 60px;
+   margin-left: 44rem;
+    color: white;
+    font-size: 22px;
+
+    cursor: pointer;
+    
+}
+body{
+    height: 39.05rem;
+    background-repeat: no-repeat;
+  background-image: linear-gradient(-360deg,green,black) 
+}
+section{
+    margin-top: 7px;
+    margin-left: 28rem;
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 10px; 
+}
+#musica{
+  margin-top: 10px;
+  background-color: green;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#mostrador{
+    margin: auto;
+    margin-top: 10px;
+    width: 252px;
+    height: 80px;
+}
+
+.espaco{
+    width: 80px;
+    height: 80px;
+
+    border:2px solid black ;
+    float: left;
+
+    padding-top: 10px;
+    padding-left: 9px;
+}
+
+.tabuleiro{
+    margin: auto;
+
+    width: 252px;   
+    height: 252px;
+}
+
+@media (max-width: 800px){
+    header{
+        height: 10%;
+        width: 100%;
+    }
+
+    h1{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    button{
+        margin-left: 5rem;
+        margin-top: 10px;
+    }
+    section{
+        margin: 0px;
+        width: 99%;
+        margin-left: 2px;
+    }
+    body{
+        margin: 8px;
+    }
+}

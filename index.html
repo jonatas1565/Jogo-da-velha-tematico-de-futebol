@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1> FutVelha </h1>
+        <button class="reiniciar" type="submit"  onClick="refreshPage()">Reiniciar</button>
+    </header>
+    <audio class="musica"src="./audio/player.mp3" controls></audio>
+    <img class="banner" src="./img/banner.png" alt="banner">
+    <section>
+        
+    <div id="mostrador">
+        <p style="float: left; margin-right: 10px; margin-top: 20px"> Vez do jogador: </p>
+        <img src="" alt="imagem do X">
+    </div>
+
+    <audio id="audio"src="./audio/comemoração.mp3"> </audio>
+
+    <div class="tabuleiro"> 
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+    <img class="gif" src="./img/GOOOOOOL (1).gif" alt="gif">
+</section>
+    <script src="./game.js"></script>
+</body>
+</html>
